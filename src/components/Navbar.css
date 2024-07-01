@@ -1,0 +1,60 @@
+.navbar{
+  height: 70px;
+  background-color: #fff9f9;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  box-shadow: 2px 2px 7px black;
+}
+.link_box{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content:space-around ;
+  flex-wrap: wrap;
+  
+}
+.link{
+  text-transform: uppercase;
+  /* margin: 15px; */
+
+}
+.link sup{
+  color: rgb(233, 88, 62);
+  font-size: x-small;
+  font-weight: 800;
+}
+.input_box{
+  margin-left: 4rem;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+.icon{
+  position: absolute;
+  left:10px
+}
+.input_box input{
+  width:100% ;
+  height: 40px;
+  padding-left: 50px;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  background-color: rgb(202, 200, 200);
+  border: 1px solid gray;
+  
+}
+.input_box input:hover{
+  outline: auto;
+  background-color: rgb(255, 255, 255);
+}
+.profile_bag{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* border: 2px solid blue; */
+}

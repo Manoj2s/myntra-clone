@@ -59,24 +59,52 @@ const Footer = () => {
         <div className="footer-section">
           <h4>CUSTOMER POLICIES</h4>
           <ul>
-            <li>Contact Us</li>
-            <li>FAQ</li>
-            <li>T&C</li>
-            <li>Terms Of Use</li>
-            <li>Track Orders</li>
-            <li>Shipping</li>
-            <li>Cancellation</li>
-            <li>Returns</li>
-            <li>Privacy policy</li>
-            <li>Grievance Officer</li>
+            <li>
+              <a>Contact Us</a>
+            </li>
+            <li>
+              <a>FAQ</a>
+            </li>
+            <li>
+              <a>T&C</a>
+            </li>
+            <li>
+              <a>Terms Of Use</a>
+            </li>
+            <li>
+              <a>Track Orders</a>
+            </li>
+            <li>
+              <a>Shipping</a>
+            </li>
+            <li>
+              <a>Cancellation</a>
+            </li>
+            <li>
+              <a>Returns</a>
+            </li>
+            <li>
+              <a>Privacy policy</a>
+            </li>
+            <li>
+              <a>Grievance Officer</a>
+            </li>
           </ul>
         </div>
 
         <div className="footer-section">
           <h4>EXPERIENCE MYNTRA APP ON MOBILE</h4>
-          <p>Keep in touch</p>
-          <p>100% ORIGINAL guarantee for all products at myntra.com</p>
-          <p>Return within 14 days of receiving your order</p>
+          <ul>
+            <li>
+              <a>Keep in touch</a>
+            </li>
+            <li>
+              <a>100% ORIGINAL guarantee for all products at myntra.com</a>
+            </li>
+            <li>
+              <a>Return within 14 days of receiving your order</a>
+            </li>
+          </ul>
         </div>
       </footer>
       <div className="popular">
