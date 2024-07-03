@@ -1,31 +1,36 @@
-.navbar{
+.navbar {
+  position: fixed; /* Fix the navbar at the top */
+  top: 0;
+  width: 100%;
   height: 70px;
   background-color: #fff9f9;
   display: flex;
-  max-width: 100%;
   justify-content: space-between;
   box-shadow: 2px 2px 7px black;
+  z-index: 1000; /* Ensure the navbar stays on top of other elements */
+  margin-bottom: 1rem;
 }
-.link_box{
+
+.link_box {
   width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content:space-around ;
+  justify-content: space-around;
   flex-wrap: wrap;
-  
 }
-.link{
-  text-transform: uppercase;
-  /* margin: 15px; */
 
+.link {
+  text-transform: uppercase;
 }
-.link sup{
+
+.link sup {
   color: rgb(233, 88, 62);
   font-size: x-small;
   font-weight: 800;
 }
-.input_box{
+
+.input_box {
   margin-left: 4rem;
   width: 25%;
   display: flex;
@@ -33,12 +38,14 @@
   position: relative;
   flex-wrap: wrap;
 }
-.icon{
+
+.icon {
   position: absolute;
-  left:10px
+  left: 10px;
 }
-.input_box input{
-  width:100% ;
+
+.input_box input {
+  width: 100%;
   height: 40px;
   padding-left: 50px;
   font-size: 13px;
@@ -46,15 +53,22 @@
   outline: none;
   background-color: rgb(202, 200, 200);
   border: 1px solid gray;
-  
 }
-.input_box input:hover{
+
+.input_box input:hover {
   outline: auto;
   background-color: rgb(255, 255, 255);
 }
-.profile_bag{
+
+.profile_bag {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  /* border: 2px solid blue; */
+}
+
+.profile_bag {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }

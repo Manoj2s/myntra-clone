@@ -110,7 +110,7 @@ const Footer = () => {
       <div className="popular">
         <div className="copyright">
           <p>© 2024 www.myntra.com. All rights reserved.</p>
-          <p>A Flipkart company</p>
+          <p>A Mahi Manoj and Co.</p>
           <p>Registered Office Address</p>
         </div>
         <div>
